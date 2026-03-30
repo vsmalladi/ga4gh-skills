@@ -20,6 +20,7 @@ Use `version 1.2` for broadest engine compatibility; use `version 1.3` for
 
 > For deeper detail on spec-defined behaviour (type coercion, scoping rules,
 > standard library functions) see `references/wdl-spec-highlights.md`.
+> For linting and fixing WDL, see `lint/SKILL.md`.
 
 ---
 
@@ -468,6 +469,10 @@ command <<<
 
 
 ---
+
+## Sub-Skills
+
+- **`lint/SKILL.md`** — Validate, lint, and fix WDL files using `miniwdl check` and `womtool validate`. Covers auto-fixable issues vs. issues that need review.
 
 ## Spec Reference Files
 

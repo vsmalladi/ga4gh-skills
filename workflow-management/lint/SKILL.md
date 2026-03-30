@@ -23,7 +23,6 @@ coverage — they catch different things.
 | **sprocket** | Rust (St. Jude) | 1.0 – 1.3 | Strictest linter; full 1.2/1.3 support; LSP; formatter; CI-ready |
 
 > For WDL syntax help see the root `SKILL.md` and `references/wdl-spec-highlights.md`.
-> For linting and fixing WDL, see `lint/SKILL.md`.
 
 ---
 
