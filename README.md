@@ -17,61 +17,6 @@ Target users range from developers integrating GA4GH services to researchers exe
 
 ## Installation
 
-### Claude Code
-
-```
-  git clone git@github.com:GA4GH/ga4gh-skills.git
-  cd ga4gh-skills
-  ./install-claude.sh                              # Install globally
-  ./install-claude.sh --project /path/to/project   # Or install to specific project
-  ./install-claude.sh --categories "workflow-mangement"  # Install specific categories
-  ./install-claude.sh --list                       # List available skills
-  ./install-claude.sh --validate                   # Validate all skills
-  ./install-claude.sh --update                     # Only update changed skills
-  ./install-claude.sh --uninstall                  # Remove all ga4gh-* skills
-```
-
-### Codex CLI
-
-```
-  ./install-codex.sh                               # Install globally
-  ./install-codex.sh --project /path/to/project    # Or install to specific project
-  ./install-codex.sh --categories "workflow-mangement"  # Install specific categories
-  ./install-codex.sh --list                        # List available skills
-  ./install-codex.sh --validate                    # Validate all skills
-  ./install-codex.sh --update                      # Only update changed skills
-  ./install-codex.sh --uninstall                   # Remove all ga4gh-* skills
-```
-
-### Gemini CLI
-
-```
-  ./install-gemini.sh                              # Install globally
-  ./install-gemini.sh --project /path/to/project   # Or install to specific project
-  ./install-gemini.sh --categories "workflow-mangement"  # Install specific categories
-  ./install-gemini.sh --list                       # List available skills
-  ./install-gemini.sh --validate                   # Validate all skills
-  ./install-gemini.sh --update                     # Only update changed skills
-  ./install-gemini.sh --uninstall                  # Remove all ga4gh-* skills
-```
-
-### OpenClaw
-
-Install directly from [ClawHub](https://clawhub.ai/ga4gh/ga4gh-skills), or use the install script:
-
-```
-  ./install-openclaw.sh                            # Install all skills globally
-  ./install-openclaw.sh --categories "workflow-mangement"  # Install specific categories
-  ./install-openclaw.sh --project /path/to/workspace  # Install to workspace
-  ./install-openclaw.sh --tool-type-metadata       # Add OpenClaw dependency metadata
-  ./install-openclaw.sh --dry-run                  # Preview install + token estimate
-  ./install-openclaw.sh --list                     # List available skills
-  ./install-openclaw.sh --validate                 # Validate all skills
-  ./install-openclaw.sh --update                   # Only update changed skills
-  ./install-openclaw.sh --uninstall                # Remove all ga4gh-* skills
-```
-
-All installers support `--categories` for selective installation and `--dry-run` for previewing. Codex and Gemini convert to the Agent Skills standard (`examples/` -> `scripts/`, `usage-guide.md` -> `references/`). OpenClaw keeps the original directory structure and optionally adds dependency metadata with `--tool-type-metadata`.
 
 ## Skill Categories
 
