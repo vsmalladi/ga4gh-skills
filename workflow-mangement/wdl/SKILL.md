@@ -466,11 +466,8 @@ command <<<
 | Sprocket  | 1.0 – 1.3       | First full 1.2/1.3 compliant engine |
 | Terra/AnVIL | 1.0 – 1.1     | NIHBroad cloud platform (Cromwell backend) |
 
-> For backend-specific configuration (HOCON, JSON options, HPC schedulers),
-> see `backends/SKILL.md`.
 
 ---
-
 
 ## Spec Reference Files
 
