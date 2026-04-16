@@ -10,7 +10,7 @@ Target users range from developers integrating GA4GH services to researchers exe
 
 ### Python
 
-• Python 3.9+
+* Python 3.9+
 
 ### CLI Tools
 
@@ -22,7 +22,7 @@ Target users range from developers integrating GA4GH services to researchers exe
 
 | Category | Skills | Primary Tools | Description |
 |----------|--------|---------------|-------------|
-| workflow-management | x | Snakemake, Nextflow, CWL, WDL, Galaxy | Mangement of scalable analysis |
+| workflow-management | x | Snakemake, Nextflow, CWL, WDL, Galaxy | Management of scalable analysis |
 
 Total: ?
 
@@ -42,12 +42,12 @@ The agent will select appropriate tools based on context. See the Skill Categori
 
 Key requirements:
 
-• SKILL.md must include "Use when..." in description
-• `primary_tool` must be a single value (not comma-separated)
-• Quick Start uses bullets; Example Prompts use blockquotes
-• Examples must document magic numbers with rationale
-• Major multi-step code sections use Goal/Approach structure (intent survives version changes)
-• Every Skill must include and `evals.json` to test wheathe the skill produces good outputs. 
+* SKILL.md must include "Use when..." in description
+* `primary_tool` must be a single value (not comma-separated)
+* Quick Start uses bullets; Example Prompts use blockquotes
+* Examples must document magic numbers with rationale
+* Major multi-step code sections use Goal/Approach structure (intent survives version changes)
+* Every Skill must include and `evals.json` to test wheathe the skill produces good outputs. 
 
 ## License / Links
 
