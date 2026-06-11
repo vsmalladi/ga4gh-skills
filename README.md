@@ -22,9 +22,9 @@ Target users range from developers integrating GA4GH services to researchers exe
 
 | Category | Skills | Primary Tools | Description |
 |----------|--------|---------------|-------------|
-| workflow-management | x | Snakemake, Nextflow, CWL, WDL, Galaxy | Mangement of scalable analysis |
+| workflow-management | x | WDL | Mangement of scalable analysis |
+| reference-management | x | refget, refgenie | Mangement of genomic references and resources |
 
-Total: ?
 
 ## Example Usage
 
