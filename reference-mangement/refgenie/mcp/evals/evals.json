@@ -1,0 +1,20 @@
+{
+  "skill_name": "refgenie-mcp",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Find the latest human reference genome assembly at refgenie.",
+      "expected_output": "List the latest human reference genome assembly available at refgenie with its version and digest."
+    },
+    {
+      "id": 2,
+      "prompt": "I am interested in the 'hg38' assembly. Can you provide me with the digest and version information for this assembly from refgenie?",
+      "expected_output": "The digest and version information for the 'hg38' assembly from refgenie."
+    },
+    {
+      "id": 3,
+      "prompt": "Can you list all specialized human reference genome assemblies along with their versions and digests?",
+      "expected_output": "A list of all specialized human reference genome assemblies available at refgenie, including their versions and digests."
+    }
+  ]
+}
